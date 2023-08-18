@@ -1,0 +1,44 @@
+.lmj-cart {
+	color: white;
+	background-color: #31b572;
+	padding: 32px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	min-width: 200px;
+}
+
+.lmj-cart-add-button {
+	margin-left: 32px;
+	cursor: pointer;
+}
+
+.lmj-cart-toggle-button {
+	background: white;
+	outline: none;
+	border: 1px solid transparent;
+    border-radius: 10px;
+	font-weight: 600;
+	cursor: pointer;
+	align-self: self-start;
+    margin: 0 auto;
+	padding: 10px;
+	color: #31b572;
+    transition: ease-in-out .2s;
+}
+
+.lmj-cart-toggle-button:hover {
+	background: #31b572;
+	color: white;
+    border: 1px solid white
+}
+
+.lmj-cart-closed {
+	padding: 32px;
+	min-width: 200px;
+	display: flex;
+}
+
+.lmj-cart-closed > button {
+	color: black;
+}
